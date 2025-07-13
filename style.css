@@ -54,3 +54,15 @@ body {
   padding-top: 80px;
   text-align: center;
 }
+.hero {
+  background-image: url('pictures/skii.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
