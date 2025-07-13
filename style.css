@@ -66,3 +66,9 @@ body {
   color: white;
   text-align: center;
 }
+.card-images img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
