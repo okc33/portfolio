@@ -72,3 +72,35 @@ body {
   object-fit: cover;
   border-radius: 0.5rem;
 }
+/* Base style.css recreated */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-images {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.card-images img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
