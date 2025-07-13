@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,18 +11,56 @@
     <div class="container">
       <a href="index.html" class="logo">Portfolio</a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Profile</a></li>
-        <li><a href="#">Travel</a></li>
-        <li><a href="#">Pets</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="pets.html">Pets</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </nav>
-  <main class="content">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple HTML version of your site.</p>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>クリエイティブ<br><span class="highlight">ポートフォリオ</span></h1>
+      <p>デザインと技術で価値を創造する</p>
+      <a href="#" class="button">プロジェクトを見る →</a>
+    </div>
+  </header>
+
+  <main class="content" style="max-width: 1024px; margin: auto; padding: 2rem 1rem;">
+    <section class="intro-section">
+      <div class="intro-text">
+        <h2>はじめまして</h2>
+        <p>
+          Web開発とデザインに情熱を注ぐ学生です。ゼミでの研究活動と個人制作を通じて、ユーザーに価値を提供するアプリケーション開発に取り組んでいます。<br><br>
+          技術だけでなく、旅行や写真撮影を通じて得たインスピレーションを作品づくりに活かしています。
+        </p>
+        <a href="#" class="button">詳細プロフィール →</a>
+      </div>
+      <div class="intro-image">
+        <img src="https://source.unsplash.com/600x400/?laptop,people" alt="プロフィール画像" />
+      </div>
+    </section>
+
+    <section>
+      <h2 style="text-align: center; margin-bottom: 1rem;">コンテンツ一覧</h2>
+      <div class="cards-3col">
+        <div class="card">
+          <h3>プロジェクト</h3>
+          <p>ゼミでの研究成果や個人制作のアプリケーション</p>
+        </div>
+        <div class="card">
+          <h3>旅・写真</h3>
+          <p>一人旅での記録と写真作品</p>
+        </div>
+        <div class="card">
+          <h3>愛犬紹介</h3>
+          <p>かわいい家族の写真コレクション</p>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
