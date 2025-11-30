@@ -198,3 +198,9 @@ body {
   display: block;
   margin: 0 auto;
 }
+/* ヒーローヘッダーのタイトルを一行分上に見せる（レイアウトは維持） */
+.hero .highlight {
+  display: inline-block;
+  transform: translateY(-1em); /* 必要に応じて -0.8em / -1.2em に調整 */
+  white-space: nowrap; /* 折返し防止 */
+}
