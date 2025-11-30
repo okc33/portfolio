@@ -176,3 +176,25 @@ body {
 .project-link:hover {
   border-color: currentColor;
 }
+/* ギャラリー画像のサイズを抑えてレスポンシブに表示 */
+.pet-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-card {
+  max-width: 220px; /* カード幅を制限 */
+  text-align: center;
+}
+
+.pet-card img {
+  width: 100%;
+  max-width: 220px;
+  height: 140px;       /* 必要なら高さを調整（縦横比を揃えて切り抜く） */
+  object-fit: cover;   /* 切り抜きで見栄えを維持 */
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
